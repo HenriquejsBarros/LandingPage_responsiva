@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+@media (max-width: 680px) {
+    .section-1 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 8px;
+    }
+
+    .ebook img {
+        margin-right: 0px;
+    }
+
+    .action-title {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .action-title h2 {
+        font-size: 40px;
+        text-align: center;
+        font-size: 30px;
+        color: var(--color-font);
+    }
+
+    .button {
+        margin-top: 20px;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        margin-top: 40px;
+    }
+
+    .section-3 h2 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .section-3 p {
+        font-size: 12px;
+
+    }
+
+
+
+}
